@@ -1,0 +1,63 @@
+@import './card.css';
+
+/* Common - Start */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Common - End */
+
+/* Footer Styling - Start */
+
+.user-list .list-group-item {
+  cursor: pointer;
+}
+
+/* Footer Styling - End */
+
+/* Footer Styling - Start */
+
+.footer-heading ~ ul li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+h2.footer-heading {
+  font-size: 20px;
+}
+
+h2.footer-heading > p {
+  font-size: 14px;
+}
+
+i.fa-brands, i.fa-solid {
+  margin-top: 10px;
+  width: 30px;
+}
+
+.footer {
+  color: white;
+}
+
+.footer > div {
+  padding: 10px 0 0;
+}
+
+.footer .section-text, .copy-right-text {
+  font-size: 13px;
+}
+
+.footer .aside-text {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+/* Footer Styling - End */
